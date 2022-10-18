@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RJiALZk4ngvmUQS7pV+alabTHYHOtmXpZXTHBXHpQI9aTiaXw/DmL3QnxTUh9LkkhMlyFkGLnkVdFpxFDg7NLA==",
+  "dgSpecHash": "uWQwToakM+Rk11ThktnEB0zohYGvBP/3R0xkVNpVsxkfMLHfe/jDb/QFgcwSLgMgaRofV4HLLRTEOFlT4XSUMA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kelleyr\\OneDrive - Duval County Public Schools\\Documents\\GitHub\\control_structures_logical_operators\\5B\\ControlStructuresLogicalOperators.csproj",
+  "projectFilePath": "C:\\Users\\kelleyr\\Downloads\\GitHub\\control_structures_logical_operators\\5B\\ControlStructuresLogicalOperators.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kelleyr\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
   ],
