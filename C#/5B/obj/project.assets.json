@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kelleyr\\OneDrive - Duval County Public Schools\\Documents\\GitHub\\control_structures_logical_operators\\5B\\ControlStructuresLogicalOperators.csproj",
+      "projectUniqueName": "C:\\Users\\kelleyr\\OneDrive - Duval County Public Schools\\Documents\\GitHub\\control_structures_logical_operators\\C#\\5B\\ControlStructuresLogicalOperators.csproj",
       "projectName": "ControlStructuresLogicalOperators",
-      "projectPath": "C:\\Users\\kelleyr\\OneDrive - Duval County Public Schools\\Documents\\GitHub\\control_structures_logical_operators\\5B\\ControlStructuresLogicalOperators.csproj",
+      "projectPath": "C:\\Users\\kelleyr\\OneDrive - Duval County Public Schools\\Documents\\GitHub\\control_structures_logical_operators\\C#\\5B\\ControlStructuresLogicalOperators.csproj",
       "packagesPath": "C:\\Users\\kelleyr\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kelleyr\\OneDrive - Duval County Public Schools\\Documents\\GitHub\\control_structures_logical_operators\\5B\\obj\\",
+      "outputPath": "C:\\Users\\kelleyr\\OneDrive - Duval County Public Schools\\Documents\\GitHub\\control_structures_logical_operators\\C#\\5B\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\kelleyr\\AppData\\Roaming\\NuGet\\NuGet.Config"
