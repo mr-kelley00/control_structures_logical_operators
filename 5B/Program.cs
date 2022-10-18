@@ -14,11 +14,15 @@ namespace ControlStructuresLogicalOperators
 
             // Collect User Input 
             Console.WriteLine("Please enter the card back, either Blue or Red.");
-            Console.WriteLine("Please enter the card value. 2-10 or J = 11, Q = 12, K = 13, A = 14.");
-            Console.WriteLine("Please enter the card suit, 0 = Clubs, 1 = Diamonds, 2 = Hearts, 3 = Spades");
             cardBack = Console.ReadLine();
+            
+            Console.WriteLine("Please enter the card value. 2-10 or J = 11, Q = 12, K = 13, A = 14.");
             cardValue = Convert.ToInt32(Console.ReadLine()); 
+            
+            Console.WriteLine("Please enter the card suit, 0 = Clubs, 1 = Diamonds, 2 = Hearts, 3 = Spades");
             cardSuit = Convert.ToInt32(Console.ReadLine());
+            
+            
         }
     }
 }
