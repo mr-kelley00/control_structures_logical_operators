@@ -23,7 +23,7 @@ namespace ControlStructuresLogicalOperators
             backIsBlue = Convert.ToInt32(Console.ReadLine());
             
             Console.WriteLine("Your card is " + cardSuit + " and has a value of " + cardValue + "and the back color value is" + backIsBlue + ".");
-            
+            Console.WriteLine(string.Format("Your card back is {0}. It has a value of {1} and the suit value is {2}.", backIsBlue, cardValue, cardSuit));
 
 
         }
