@@ -2,8 +2,8 @@
 
 # Card Variables
 cardSuit = 0 # 0 = Spades, 1 = Clubs, 2 = Hearts, 3 = Diamonds
-cardBack = "" # Blue or Red 
 cardValue = 0 # 2-10, Jack = 11, Queen = 12, King = 13, Ace = 14
+cardBack = "" # Blue or Red 
 
 # Input Card Data
 cardSuit = int(input("Please enter the card suit: 0 = Spades, 1 = Clubs, 2 = Hearts, 3 = Diamonds\n"))
