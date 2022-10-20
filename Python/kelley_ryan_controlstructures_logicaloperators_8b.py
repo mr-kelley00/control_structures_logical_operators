@@ -24,6 +24,3 @@ if backColor == "Red":
 
 if cardSuit <= 2: 
     print("You have a Club or Spade.")
-
-
-
