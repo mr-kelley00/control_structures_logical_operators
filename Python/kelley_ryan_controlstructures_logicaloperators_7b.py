@@ -1,4 +1,4 @@
-# Control Structures and Logical Operators, Ryan Kelley, 10/18/22, 11:45AM, v0.0
+# Control Structures and Logical Operators, Ryan Kelley, 10/20/22, 11:30AM, v0.5
 
 # Card Variables
 cardSuit = 0 # 0 = Spades, 1 = Clubs, 2 = Hearts, 3 = Diamonds
@@ -34,4 +34,35 @@ if cardValue > 10:
     print("You have a Jack, Queen, King, or Ace card.\n")
 else: 
     print("You have a 2 through 10 card.\n")
+
+# if-elif-else Statement 
+# Make the most common conditon the FIRST statement!
+if cardValue == 14:
+    print("You have an Ace!\n")
+elif cardValue == 13:
+    print("You have a King!\n")
+elif cardValue == 12:
+    print("You have a Queen!\n")
+elif cardValue == 11:
+    print("You have a Jack!\n")
+else:
+    print("You have a 2 through 10 card.\n")
+
+# Logical Operators 
+# "If you buy at least three items or one item worth $100 or more, get 10% off."
+
+# Logical and -- ALL CONDITIONS MUST BE TRUE 
+if cardValue > 10 and cardSuit == 1:
+    print("You have a Club face card.\n")
+
+# Logical or -- ONE CONDITION MUST BE TRUE 
+if cardValue <= 11 or cardSuit == 0:
+    print("You have a non-face card or a Spades card.\n")
+
+# Logical not -- RETURNS THE OPPOSITE VALUE 
+if not cardValue > 3:
+    print("You do not have a 2.\n")
+
+# Loops -- Continue on Monday, 10/24/22 
+
 
