@@ -1,4 +1,4 @@
-# Control Structures and Logical Operators, Ryan Kelley, 10/24/22, 10:28AM, v0.3 
+# Control Structures and Logical Operators, Ryan Kelley, 10/24/22, 10:37AM, v0.4 
 
 # Card Variables 
 backColor = 0 # 1 = Red, 2 = Blue 
@@ -13,3 +13,15 @@ cardSuit = int(input("Please enter the card suit. 1 = Club, 2 = Spade, 3 = Heart
 
 # Validate User Input -- Is the information being saved as expected? 
 print(f"Your card back color is {backColor}, it has a value of {cardValue} and the suit value is {cardSuit}.\n")
+
+# Control Structures 
+# if Statement 
+if cardValue > 10: # Conditional Expression, determine if true or false. If True, execute code. 
+    print("Your card is either a Jack, Queen, King, or Ace.\n")    
+
+if backColor == 1: 
+    print("Your card back is red.\n")
+
+# Pause the video, wrote your own if statement.  If the card is a Club, print it on the screen. 
+if cardSuit == 1: 
+    print("Your card is a Club.\n")
