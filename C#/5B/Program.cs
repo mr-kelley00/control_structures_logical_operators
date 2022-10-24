@@ -49,8 +49,28 @@ namespace ControlStructuresLogicalOperators
             }
 
             // Make your own if-else statement using the cardSuit variable.  
-            Console.WriteLine
-
+            if (cardSuit != 3)
+            {
+                Console.WriteLine("You do not have a Spades card.");
+            }
+            else 
+            {
+                Console.WriteLine("You do have a Spades card.");
+            }
+            
+            // if - else if - else Statement 
+            if (cardValue > 13)
+            {
+                Console.WriteLine("You have an Ace.");                
+            }
+            else if (cardValue > 10)
+            {
+                Console.WriteLine("Your card is either a Jack, Queen, or King.");
+            }
+            else 
+            {
+                Console.WriteLine("Your card is a 10 or less.");
+            }
 
         }
     }
