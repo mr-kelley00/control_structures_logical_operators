@@ -1,4 +1,4 @@
-# Control Structures and Logical Operators, Ryan Kelley, 10/24/22, 10:49AM, v0.5 
+# Control Structures and Logical Operators, Ryan Kelley, 10/24/22, 10:49AM, v0.6 
 
 # Card Variables 
 backColor = 0 # 1 = Red, 2 = Blue 
@@ -44,3 +44,17 @@ else:
     print("Your card is a Spades, Hearts, or Diamonds.\n")
 
 # Pause the video and add an else block to the two if statements on 35 and 39.  
+
+# if-elif-else Statement 
+if cardSuit == 1: 
+    print("You have a Club.\n")
+elif cardSuit == 2: 
+    print("You have a Spade.\n")
+elif cardSuit == 3: 
+    print("You have a Heart.\n")
+elif cardSuit == 4: 
+    print("You have a Diamond.\n")
+else: 
+    print("Your card suit could not be determined, please restart.\n")
+
+# Generally, use the else: block as an error message. 
