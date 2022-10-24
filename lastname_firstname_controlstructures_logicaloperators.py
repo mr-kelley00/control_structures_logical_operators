@@ -1,4 +1,4 @@
-# Control Structures and Logical Operators, Ryan Kelley, 10/24/22, 10:49AM, v0.6 
+# Control Structures and Logical Operators, Ryan Kelley, 10/24/22, 11:03AM, v1.0
 
 # Card Variables 
 backColor = 0 # 1 = Red, 2 = Blue 
@@ -58,3 +58,19 @@ else:
     print("Your card suit could not be determined, please restart.\n")
 
 # Generally, use the else: block as an error message. 
+
+# Logical Operators -- and or not 
+# If your card is an Ace or a Diamond, you get 5 points. Otherwise, you get 1 point. 
+score = 0 
+if cardValue == 14 or cardSuit == 4: # With or, as long as one is True, the whole statement is True. 
+    score = score + 5
+else: 
+    score = score + 1
+
+# If your card is a Club and a Jack or better, you get 10 points.  Otherwise you get 1 point. 
+if cardSuit == 1 and cardValue > 10: # With and, ALL statements must be True for the whole statement to be True. 
+    score = score + 10 
+else: 
+    score = score + 1
+
+print(score)
