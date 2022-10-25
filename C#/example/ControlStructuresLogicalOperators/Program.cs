@@ -1,4 +1,4 @@
-﻿// Control Structures and Logical Operators, Ryan Kelley, 10/25/22, 10:18AM, v0.2
+﻿// Control Structures and Logical Operators, Ryan Kelley, 10/25/22, 10:36AM, v0.3
 using System;
 
 namespace ControlStructuresLogicalOperators
@@ -22,6 +22,11 @@ namespace ControlStructuresLogicalOperators
 
             Console.WriteLine("Please enter the card suit: 1 = Clubs, 2 = Spades, 3 = Hearts, 4 = Diamonds.");
             cardSuit = Convert.ToInt32(Console.ReadLine()); // By default, Console.ReadLine() stores as a string.  
+
+            // Validate User Input -- Make sure the user is typing is being saved correctly.  
+            Console.WriteLine("Your card back is " + cardBack + ". It has a value of " + cardValue + " and the suit number is " + cardSuit + ".");
+            Console.WriteLine(string.Format("Your card back is {0}. It has a value of {1} and the suit number is {2}.", cardBack, cardValue, cardSuit));
+
 
            
         }
