@@ -79,6 +79,7 @@ namespace ControlStructuresLogicalOperators
             */ 
 
             // if - else if - else 
+            /*
              if (cardSuit == 1)
             {
                 Console.WriteLine("You have a card that is a Clubs.");                   
@@ -124,7 +125,32 @@ namespace ControlStructuresLogicalOperators
             {
                 Console.WriteLine("Your card value was not saved correctly.");                      
             }
+            */ 
 
+            // Logical Operators -- and or not 
+            // AND && 
+            /*
+            if (cardValue > 10 && cardSuit == 1) // ALL conditions must be true for the statement to be true. 
+            {
+                Console.WriteLine("You have a face card that is a Club.");
+            }
+            else
+            {
+                Console.WriteLine("You do not have a face card that is a Club.");
+            }
+
+            // OR || 
+            if (cardValue > 10 || cardSuit == 3) // ONE conditions must be true for the statement to be true. 
+            {
+                Console.WriteLine("You have a face card or a Hearts.");
+            }
+            else
+            {
+                Console.WriteLine("You do not have a face card or a Hearts.");
+            }
+            */ 
+
+            // Pause the video, use one of the logical operators to fix the if - else if - else block that prints the card value. 
         }
     }
 }
