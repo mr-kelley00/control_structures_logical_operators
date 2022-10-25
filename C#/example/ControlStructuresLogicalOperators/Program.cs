@@ -1,4 +1,4 @@
-﻿// Control Structures and Logical Operators, Ryan Kelley, 10/25/22, 10:51AM, v0.4
+﻿// Control Structures and Logical Operators, Ryan Kelley, 10/25/22, 11:07AM, v0.5
 using System;
 
 namespace ControlStructuresLogicalOperators
@@ -29,6 +29,7 @@ namespace ControlStructuresLogicalOperators
 
             // Control Structures -- Allow the program to make decisions or change flow / sequence of events. 
             // if Statement 
+            /*
             if (cardValue > 10) // (cardValue > 10) is a CONDITIONAL EXPRESSION -- Is it True or False? 
             {
                 Console.WriteLine("You have a face card, either a Jack, Queen, King, or Ace!");                
@@ -44,7 +45,35 @@ namespace ControlStructuresLogicalOperators
             {
                 Console.WriteLine("You have a card with a red back.");                   
             }
-           
+            */ 
+            // if-else Statement 
+            if (cardValue < 11)
+            {
+                Console.WriteLine("You have a card that is not a face card.");                      
+            }
+            else
+            {
+                Console.WriteLine("You have a card that is a face card.");                      
+            }
+
+            if (cardBack == 1)
+            {
+                Console.WriteLine("You have a card with a red back.");                   
+            }
+            else 
+            {
+                Console.WriteLine("You have a card with a blue back.");                   
+            }
+
+            // Pause the video, write an if-else statement using the cardSuit variable.  
+            if (cardSuit == 1)
+            {
+                Console.WriteLine("You have a card that is a Clubs.");                   
+            }
+            else
+            {
+                Console.WriteLine("You have a card that is a Hearts, Diamonds, or Spades.");                   
+            }
         }
     }
 }
