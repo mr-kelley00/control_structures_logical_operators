@@ -46,6 +46,8 @@ namespace ControlStructuresLogicalOperators
                 Console.WriteLine("You have a card with a red back.");                   
             }
             */ 
+
+            /*
             // if-else Statement 
             if (cardValue < 11)
             {
@@ -74,6 +76,55 @@ namespace ControlStructuresLogicalOperators
             {
                 Console.WriteLine("You have a card that is a Hearts, Diamonds, or Spades.");                   
             }
+            */ 
+
+            // if - else if - else 
+             if (cardSuit == 1)
+            {
+                Console.WriteLine("You have a card that is a Clubs.");                   
+            }
+            else if (cardSuit == 2)
+            {
+                Console.WriteLine("You have a card that is a Spades.");                   
+            }
+            else if (cardSuit == 3)
+            {
+                Console.WriteLine("You have a card that is a Hearts.");                   
+            }
+            else if (cardSuit == 4)
+            {
+                Console.WriteLine("You have a card that is a Diamonds.");                   
+            }                  
+            else
+            {
+                Console.WriteLine("Your card suit was not properly detected, please restart the program and try again.");                   
+            }
+            // Pause the video, create an if-else if-else block using the Card Value.  Print exactly which face card, or print 2-10, or print an error. 
+            if (cardValue == 14)
+            {
+                Console.WriteLine("You have a card that is an Ace card.");                      
+            }
+            else if (cardValue == 13)
+            {
+                Console.WriteLine("You have a card that is a King card.");                      
+            }
+            else if (cardValue == 12)
+            {
+                Console.WriteLine("You have a card that is a Queen card.");                      
+            }
+            else if (cardValue == 11)
+            {
+                Console.WriteLine("You have a card that is a Jack card.");                      
+            }
+            else if (cardValue < 11)
+            {
+                Console.WriteLine("You have a card that is a 2-10.");                      
+            }
+            else
+            {
+                Console.WriteLine("Your card value was not saved correctly.");                      
+            }
+
         }
     }
 }
