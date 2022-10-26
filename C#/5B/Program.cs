@@ -8,18 +8,18 @@ namespace ControlStructuresLogicalOperators
         static void Main(string[] args)
         {
             // Declare and Define Variables 
-            string cardBack; 
-            int cardValue; // 2-10 or J = 11, Q = 12, K = 13, A = 14 
-            int cardSuit; // 0 = Clubs, 1 = Diamonds, 2 = Hearts, 3 = Spades
+            int cardBack = 0; // 1 = Red, 2 = Blue 
+            int cardValue = 0; // 2-10 or J = 11, Q = 12, K = 13, A = 14 
+            int cardSuit = 0; // 1 = Clubs, 2 = Diamonds, 3 = Hearts, 4 = Spades
 
             // Collect User Input 
-            Console.WriteLine("Please enter the card back, either Blue or Red.");
-            cardBack = Console.ReadLine();
+            Console.WriteLine("Please enter the card back, either 1 = Red or 2 = Blue.");
+            cardBack = Convert.ToInt32(Console.ReadLine()); 
             
             Console.WriteLine("Please enter the card value. 2-10 or J = 11, Q = 12, K = 13, A = 14.");
             cardValue = Convert.ToInt32(Console.ReadLine()); 
             
-            Console.WriteLine("Please enter the card suit, 0 = Clubs, 1 = Diamonds, 2 = Hearts, 3 = Spades");
+            Console.WriteLine("Please enter the card suit, 1 = Clubs, 2 = Diamonds, 3 = Hearts, 4 = Spades");
             cardSuit = Convert.ToInt32(Console.ReadLine());
 
             // Validate User Input 
@@ -71,6 +71,32 @@ namespace ControlStructuresLogicalOperators
             {
                 Console.WriteLine("Your card is a 10 or less.");
             }
+
+            if (cardSuit == 0)
+            {
+                Console.WriteLine("You have a Clubs.");                
+            }
+            else if (cardSuit == 1)
+            {
+                Console.WriteLine("You have a Diamonds.");                
+                
+            }
+            else if (cardSuit == 2)
+            {
+                Console.WriteLine("You have a Hearts.");                
+                
+            }
+            else if (cardSuit == 3)
+            {
+                Console.WriteLine("You have a Spades.");                
+                
+            }
+            else 
+            {
+                Console.WriteLine("Your card suit was not correctly identified. Please start over.");
+            }
+
+
 
         }
     }
