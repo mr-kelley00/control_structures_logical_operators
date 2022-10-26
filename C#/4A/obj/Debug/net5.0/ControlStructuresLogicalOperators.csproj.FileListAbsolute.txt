@@ -14,3 +14,19 @@ C:\Users\kelleyr\OneDrive - Duval County Public Schools\Documents\GitHub\control
 C:\Users\kelleyr\OneDrive - Duval County Public Schools\Documents\GitHub\control_structures_logical_operators\C#\4A\obj\Debug\net5.0\ref\ControlStructuresLogicalOperators.dll
 C:\Users\kelleyr\OneDrive - Duval County Public Schools\Documents\GitHub\control_structures_logical_operators\C#\4A\obj\Debug\net5.0\ControlStructuresLogicalOperators.pdb
 C:\Users\kelleyr\OneDrive - Duval County Public Schools\Documents\GitHub\control_structures_logical_operators\C#\4A\obj\Debug\net5.0\ControlStructuresLogicalOperators.genruntimeconfig.cache
+C:\Users\kelleyr\Downloads\GitHub\control_structures_logical_operators\C#\4A\bin\Debug\net5.0\ControlStructuresLogicalOperators.exe
+C:\Users\kelleyr\Downloads\GitHub\control_structures_logical_operators\C#\4A\bin\Debug\net5.0\ControlStructuresLogicalOperators.deps.json
+C:\Users\kelleyr\Downloads\GitHub\control_structures_logical_operators\C#\4A\bin\Debug\net5.0\ControlStructuresLogicalOperators.runtimeconfig.json
+C:\Users\kelleyr\Downloads\GitHub\control_structures_logical_operators\C#\4A\bin\Debug\net5.0\ControlStructuresLogicalOperators.runtimeconfig.dev.json
+C:\Users\kelleyr\Downloads\GitHub\control_structures_logical_operators\C#\4A\bin\Debug\net5.0\ControlStructuresLogicalOperators.dll
+C:\Users\kelleyr\Downloads\GitHub\control_structures_logical_operators\C#\4A\bin\Debug\net5.0\ControlStructuresLogicalOperators.pdb
+C:\Users\kelleyr\Downloads\GitHub\control_structures_logical_operators\C#\4A\obj\Debug\net5.0\ControlStructuresLogicalOperators.csproj.AssemblyReference.cache
+C:\Users\kelleyr\Downloads\GitHub\control_structures_logical_operators\C#\4A\obj\Debug\net5.0\ControlStructuresLogicalOperators.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kelleyr\Downloads\GitHub\control_structures_logical_operators\C#\4A\obj\Debug\net5.0\ControlStructuresLogicalOperators.AssemblyInfoInputs.cache
+C:\Users\kelleyr\Downloads\GitHub\control_structures_logical_operators\C#\4A\obj\Debug\net5.0\ControlStructuresLogicalOperators.AssemblyInfo.cs
+C:\Users\kelleyr\Downloads\GitHub\control_structures_logical_operators\C#\4A\obj\Debug\net5.0\ControlStructuresLogicalOperators.csproj.CoreCompileInputs.cache
+C:\Users\kelleyr\Downloads\GitHub\control_structures_logical_operators\C#\4A\obj\Debug\net5.0\ControlStructuresLogicalOperators.dll
+C:\Users\kelleyr\Downloads\GitHub\control_structures_logical_operators\C#\4A\obj\Debug\net5.0\refint\ControlStructuresLogicalOperators.dll
+C:\Users\kelleyr\Downloads\GitHub\control_structures_logical_operators\C#\4A\obj\Debug\net5.0\ControlStructuresLogicalOperators.pdb
+C:\Users\kelleyr\Downloads\GitHub\control_structures_logical_operators\C#\4A\obj\Debug\net5.0\ControlStructuresLogicalOperators.genruntimeconfig.cache
+C:\Users\kelleyr\Downloads\GitHub\control_structures_logical_operators\C#\4A\obj\Debug\net5.0\ref\ControlStructuresLogicalOperators.dll
