@@ -1,4 +1,4 @@
-﻿// Control Structures and Logical Operators, Ryan Kelley, 10/25/22, 11:07AM, v0.5
+﻿// Control Structures and Logical Operators, Ryan Kelley, 10/27/22, 12:32PM, v1.0
 using System;
 
 namespace ControlStructuresLogicalOperators
@@ -151,6 +151,35 @@ namespace ControlStructuresLogicalOperators
             */ 
 
             // Pause the video, use one of the logical operators to fix the if - else if - else block that prints the card value. 
+            if (cardValue > 14)
+            {
+                Console.WriteLine("Your card value is greater than 14, something wrong has occurred.  Please try again.");                      
+            }
+            else if (cardValue == 14)
+            {
+                Console.WriteLine("You have a card that is an Ace card.");                      
+            }
+            else if (cardValue == 13)
+            {
+                Console.WriteLine("You have a card that is a King card.");                      
+            }
+            else if (cardValue == 12)
+            {
+                Console.WriteLine("You have a card that is a Queen card.");                      
+            }
+            else if (cardValue == 11)
+            {
+                Console.WriteLine("You have a card that is a Jack card.");                      
+            }
+            else if (cardValue < 11 && cardValue > 1) // If the card value is less than 11 and greater than 1.  
+            {
+                Console.WriteLine("You have a card that is a 2-10.");                      
+            }
+            else
+            {
+                Console.WriteLine("Your card value was not saved correctly.  Please try again.");                      
+            }
+
         }
     }
 }
